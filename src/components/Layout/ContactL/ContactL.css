@@ -1,25 +1,38 @@
+*{margin:0px; padding: 0px;}
 .containerContact{
     background-color: #ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3%;
+    width: 25%;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40vh;
+    height: 50vh;
+    padding: 3%;
 }
 
-.title{
-    background-color: #939afa;
-    
-    
-}
+
 
 .text{
     padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 1px black solid;
     
 }
+
+.message{
+    resize: none;
+}
+.title{
+    background-color:#939afa;
+    text-align: center;
+    width: 100%;
+    color:#fff;
+    padding: 6% 0%;
+}
+

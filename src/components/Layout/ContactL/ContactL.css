@@ -1,0 +1,25 @@
+.containerContact{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.title{
+    background-color: #939afa;
+    
+    
+}
+
+.text{
+    padding: 2%;
+    
+}
